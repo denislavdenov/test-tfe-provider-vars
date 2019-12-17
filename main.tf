@@ -3,7 +3,7 @@ provider "tfe" {}
 # Terraform workspace
 resource "tfe_workspace" "test" {
   name = "test-tfe-provider"
-  organization = ddenov
+  organization = "ddenov"
 }
 
 resource "tfe_variable" "pcb_evars" {
