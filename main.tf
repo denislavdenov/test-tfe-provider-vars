@@ -4,7 +4,7 @@ provider "tfe" {
 
 # Terraform workspace
 resource "tfe_workspace" "test" {
-  name = "test-tfe-provider"
+  name = "test-tfe-provider3"
   organization = "ddenov"
 }
 
