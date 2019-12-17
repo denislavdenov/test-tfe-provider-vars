@@ -1,4 +1,6 @@
-provider "tfe" {}
+provider "tfe" {
+  token    = var.token  
+}
 
 # Terraform workspace
 resource "tfe_workspace" "test" {
